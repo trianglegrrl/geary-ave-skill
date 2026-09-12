@@ -49,10 +49,13 @@ Add `--json` to any command for machine output.
 - **Booking is two steps.** Run `book` without `--confirm` first and show the price line; only add `--confirm` for a
   slot, length, and studio the user explicitly named. `--confirm` creates the appointment and prints a Stripe link
   that expires: hand it over immediately. Only the $1 deposit is paid online.
-- **Put the booking on the calendar yourself; never use the site's calendar links.** The confirmation's Google
-  Calendar and iCal links stamp Toronto local time as UTC, so the event lands 4 hours early. `book` prints a
-  `CALENDAR:` line (and `calendar_title`, `start_iso`, `end_iso` in `--json`) with the correct offset; create the
-  event from those values with timezone `America/Toronto` after a confirmed booking.
+- **Every confirmed booking goes on the calendar, built from the script, not the site.** Right after `--confirm`
+  succeeds, create a Google Calendar event: title `Rehearsal — Geary Ave Studio <N>`, start and end from the
+  `CALENDAR:` line (`start_iso`/`end_iso` in `--json`), timezone `America/Toronto`, location
+  `330 Geary Ave, Toronto ON M6H 2C7`. Put the rate type, length, room kit, appointment number, price, and the
+  cancellation policy in the description. Never use the confirmation's Google Calendar or iCal links: they stamp
+  Toronto local time as UTC and the event lands 4 hours early. This is part of booking, not an extra the user has
+  to ask for; mention it in the same reply as the payment link.
 - **Booking needs the site to know the user.** The script reads `PHONE=` from `~/.config/secrets.env` (override with
   `GEARY_SECRETS`) and looks the customer up. `CUSTOMER_NOT_FOUND` means stop and tell the user; never create a new
   customer record or pass the number on a command line. Never print the phone or anything else from that file.
@@ -66,6 +69,6 @@ Add `--json` to any command for machine output.
 | Listing 2h slots when the user asked for 3h | Pass `--hours 3`; the two lists are different |
 | Answering "weekend" from the weekday service | Let `--type solo` pick per date, or use `--dow sat,sun` |
 | Booking on a vague request | Dry run first; `--confirm` only for a named date, time, length, studio |
-| Adding the event from the site's Google Calendar link | It shows 4h early; build the event from the `CALENDAR:` line instead |
 | Sitting on the payment link | Send it in the first reply after `--confirm`; it expires |
+| Booking without adding the calendar event, or adding it from the site's link | Create it as part of `--confirm`, every time, from the `CALENDAR:` line (the link is 4h early) |
 | Guessing the room by tier | `studios` shows kit and cymbals per free room; the user has preferences (see project memory) |
