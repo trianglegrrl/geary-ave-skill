@@ -173,7 +173,7 @@ def cmd_book(args):
         print(json.dumps(result))
         return
     label = api.SERVICES[type_name]["label"]
-    print("%s  %s %s  %dh  Studio %d  total $%s (deposit $%s now)" % (
+    print("%s  %s %s  %dh  Studio %d  total $%.2f (deposit $%.2f now)" % (
         label, args.date, args.time, args.hours, args.studio, summary["total"], summary["deposit"]))
     if not args.confirm:
         print("DRY RUN: nothing booked. Re-run with --confirm to book.")
