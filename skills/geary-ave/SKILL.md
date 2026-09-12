@@ -56,6 +56,8 @@ Add `--json` to any command for machine output.
   cancellation policy in the description. Never use the confirmation's Google Calendar or iCal links: they stamp
   Toronto local time as UTC and the event lands 4 hours early. This is part of booking, not an extra the user has
   to ask for; mention it in the same reply as the payment link.
+- **Keep the ids.** Put `appointment_id` and `payment_id` in the reply and the event description. An unpaid deposit
+  lapses on its own when the link expires; run `cancel-unpaid --payment-id` only when the user says to drop the booking.
 - **Booking needs the site to know the user.** The script reads `PHONE=` from `~/.config/secrets.env` (override with
   `GEARY_SECRETS`) and looks the customer up. `CUSTOMER_NOT_FOUND` means stop and tell the user; never create a new
   customer record or pass the number on a command line. Never print the phone or anything else from that file.
