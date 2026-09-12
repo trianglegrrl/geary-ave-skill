@@ -1,0 +1,611 @@
+{
+ "source": "https://xbio.ca/geary/ (unofficial scrape of gearyaverehearsal.com)",
+ "fetched": "2026-09-12",
+ "studios": [
+  {
+   "id": 1,
+   "name": "Studio 1",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "A premium large studio with deluxe sound curtains, high-end gear, a mirrored wall, and a relaxing lounge setup.",
+   "drum_kit": "Yamaha Maple Custom Absolute (5 Pcs)",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Yamaha Maple Custom Absolute (5 Pcs)",
+    "Sabian/Zildijian Cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange OR-100 + Orange 4\u00d710 Cabinet",
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "Orange Terror Bass",
+    "Ampeg SVT 8\u00d710 Cabinate"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x) JBL PRX400 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor monitors",
+    "(3x) Shure SM58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-1/"
+  },
+  {
+   "id": 2,
+   "name": "Studio 2",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "Spacious premium studio featuring top-tier gear, velour sound curtains, a mirrored wall, and a cozy lounge.",
+   "drum_kit": "Yamaha Live Oak Custom",
+   "cymbals": "Sabian/Zildijian cymbals",
+   "drums": [
+    "Yamaha Live Oak Custom",
+    "Sabian/Zildijian cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, drum throne, kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Orange 4\u00d712 Cabinet",
+    "Marshall JVM + Marshall 4\u00d712 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "Orange OB1",
+    "Ampeg SVT 8\u00d710 Cabinate"
+   ],
+   "pa": [
+    "Soundcraft FX16ii. Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL MRX500 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-2/"
+  },
+  {
+   "id": 3,
+   "name": "Studio 3",
+   "tier": "Standard Plus Studio",
+   "price_per_hr": 27.5,
+   "size": "larger-rehearsals-7-people, mid-size-rehearsals-4-7-people",
+   "desc": "Mid-size room with iconic music legends on the walls and a chill lounge for breaks.",
+   "drum_kit": "Tama Starclassic",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Tama Starclassic",
+    "Sabian/Zildijian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, drum throne, kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange Rockerverb 50 + Marshall 4\u00d710 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3.",
+    "Ampeg SVT 8\u00d710 Cabinate"
+   ],
+   "pa": [
+    "Soundcraft FX16ii. Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL PRX500 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-3/"
+  },
+  {
+   "id": 4,
+   "name": "Studio 4",
+   "tier": "Standard Plus Studio",
+   "price_per_hr": 27.5,
+   "size": "larger-rehearsals-7-people, mid-size-rehearsals-4-7-people",
+   "desc": "A versatile mid-size space with white walls, LED lighting, sound baffling, and a comfy lounge.",
+   "drum_kit": "Yamaha Club Custom (5 Pcs)",
+   "cymbals": "Sabian AAX cymbals",
+   "drums": [
+    "Yamaha Club Custom (5 Pcs)",
+    "Sabian AAX cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH100 + Marshall 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "GK 1001 RB",
+    "Ampeg 8x10 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii mix",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL PRX500 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-4/"
+  },
+  {
+   "id": 5,
+   "name": "Studio 5",
+   "tier": "Standard Plus Studio",
+   "price_per_hr": 27.5,
+   "size": "larger-rehearsals-7-people, mid-size-rehearsals-4-7-people",
+   "desc": "Mid-size studio with acoustic panels featuring music icons and a relaxing lounge space.",
+   "drum_kit": "Yamaha Oak Custom",
+   "cymbals": "Sabian AAX Cymbals",
+   "drums": [
+    "Yamaha Oak Custom",
+    "Sabian AAX Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange Rockerverb 50 + Orange 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii mix",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL PRX500 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-5/"
+  },
+  {
+   "id": 6,
+   "name": "Studio 6",
+   "tier": "Standard Plus Studio",
+   "price_per_hr": 27.5,
+   "size": "larger-rehearsals-7-people, mid-size-rehearsals-4-7-people",
+   "desc": "Mid-size room with classic guitar decor, acoustic sound baffles, and a cozy couch lounge.",
+   "drum_kit": "Tama Superclassic",
+   "cymbals": "AAX Sabian Cymbals",
+   "drums": [
+    "Tama Superclassic",
+    "AAX Sabian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum throne, Kick pedal"
+   ],
+   "guitar_amps": [
+    "Orange Rockerverb 50 + Orange 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mesa Boogie 750 Big Block",
+    "Ampeg 8x10 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL MRX500 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-6/"
+  },
+  {
+   "id": 7,
+   "name": "Studio 7",
+   "tier": "Standard Studio",
+   "price_per_hr": 25.0,
+   "size": "mid-size-rehearsals-4-7-people",
+   "desc": "A fundamental, sound-curtained rehearsal space with all the basics and a lounge corner.",
+   "drum_kit": "Yamaha Oak Custom",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Oak Custom",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Orange 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mix",
+    "Crown XTI 2002 Power Amp",
+    "(2x) JBL PRX500 15\u201d Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-7/"
+  },
+  {
+   "id": 8,
+   "name": "Studio 8",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "Premium large studio with LED lighting, crisp walls, high-end gear, and a full lounge.",
+   "drum_kit": "Yamaha Oak Custom",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Yamaha Oak Custom",
+    "Sabian/Zildijian Cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange OR-100 + Orange 4\u00d710 Cabinet",
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "Mark bass Marcus Miller 1000w",
+    "Mark Bass 4x10 Cabinet",
+    "Mark Bass 15\u201d Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x) JBL PRX400 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-8/"
+  },
+  {
+   "id": 9,
+   "name": "Studio 9",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "Premium large studio with Pink Floyd mural, sound baffling, and full lounge setup.",
+   "drum_kit": "Yamaha Maple Custom Absolute",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Yamaha Maple Custom Absolute",
+    "Sabian/Zildijian Cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange OR-100 + Orange 4\u00d710 Cabinet",
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "TC Electronic Blacksmith 1600w",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x) JBL PRX400 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-9/"
+  },
+  {
+   "id": 10,
+   "name": "Studio 10",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "Premium large studio honoring Bob Marley, with pro gear, sound baffling, and a relaxing lounge.",
+   "drum_kit": "Yamaha Maple Custom Absolute (6 Pcs)",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Yamaha Maple Custom Absolute (6 Pcs)",
+    "Sabian/Zildijian Cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange OR-100 + Orange 4\u00d710 Cabinet",
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "Orange Terror Bass",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x) JBL PRX400 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-10/"
+  },
+  {
+   "id": 11,
+   "name": "Studio 11",
+   "tier": "Standard Studio",
+   "price_per_hr": 25.0,
+   "size": "mid-size-rehearsals-4-7-people",
+   "desc": "Mid-size white-walled studio with LED lighting, sound baffling, and a lounge couch.",
+   "drum_kit": "Yamaha Oak Custom",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Oak Custom",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Marshall 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x)-JBL PRX500 15\u201d Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-11/"
+  },
+  {
+   "id": 12,
+   "name": "Studio 12",
+   "tier": "Basic Studio",
+   "price_per_hr": 20.0,
+   "size": "budget-friendly, small-groups-2-4-people, solo-musicians",
+   "desc": "Fundamental rehearsal space with carpeted walls, all the essentials, and a lounge setup.",
+   "drum_kit": "Mapex Saturn",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Mapex Saturn",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 4\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Yorkville AP 816",
+    "(2x)-Yorkville YX15 Monitors",
+    "(2x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-12/"
+  },
+  {
+   "id": 13,
+   "name": "Studio 13",
+   "tier": "Basic Studio",
+   "price_per_hr": 20.0,
+   "size": "budget-friendly, small-groups-2-4-people, solo-musicians",
+   "desc": "Basic fully equipped studio with carpeted walls and a cozy lounge.",
+   "drum_kit": "Yamaha Stage Custom",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Stage Custom",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Marshall JVM + Marshall 4\u00d710 Cabinet + Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 4\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Yorkville AP 816",
+    "(2x)-Yorkville YX15 Monitors",
+    "(2x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-13/"
+  },
+  {
+   "id": 14,
+   "name": "Studio 14",
+   "tier": "Premium Studio",
+   "price_per_hr": 30.0,
+   "size": "dancers, larger-rehearsals-7-people, video-shoots",
+   "desc": "Premium large studio with velour curtains, LED lighting, mirrors, and a lounge with mini fridge.",
+   "drum_kit": "Yamaha Maple Custom Absolute (5 Pcs)",
+   "cymbals": "Sabian/Zildijian Cymbals",
+   "drums": [
+    "Yamaha Maple Custom Absolute (5 Pcs)",
+    "Sabian/Zildijian Cymbals",
+    "(2x Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange OR-100 + Orange 4\u00d710 Cabinet",
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Vox AC30",
+    "Fender Twin Reverb"
+   ],
+   "bass_amps": [
+    "TC Electronic Blacksmith 1600w",
+    "TC Electronic 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 4002 Power Amp",
+    "(2x) JBL PRX400 15\u201d Monitors",
+    "(2x) JBL PRX400 12\u201d Floor Monitors",
+    "(3x) Shure SM58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-14/"
+  },
+  {
+   "id": 15,
+   "name": "Studio 15",
+   "tier": "Basic Studio",
+   "price_per_hr": 20.0,
+   "size": "budget-friendly, small-groups-2-4-people, solo-musicians",
+   "desc": "Fully equipped fundamental room with carpeted walls and a laid-back lounge.",
+   "drum_kit": "Gretsch Catalina",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Gretsch Catalina",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Marshall JVM + Marshall 4\u00d710 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 4\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Yorkville AP 816",
+    "(2x) Yorkville YX15 Monitors",
+    "(2x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-15/"
+  },
+  {
+   "id": 16,
+   "name": "Studio 16",
+   "tier": "Basic Studio",
+   "price_per_hr": 20.0,
+   "size": "budget-friendly, small-groups-2-4-people, solo-musicians",
+   "desc": "Basic rehearsal room with essentials, carpeted walls, and a comfy lounge space.",
+   "drum_kit": "DW Performance Series",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "DW Performance Series",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Marshall JVM + Marshall 4\u00d710 Cabinet + Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 4\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Yorkville AP 812",
+    "(2x)-Yorkville YX15 Monitors",
+    "(2x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-16/"
+  },
+  {
+   "id": 17,
+   "name": "Studio 17",
+   "tier": "Standard Studio",
+   "price_per_hr": 25.0,
+   "size": "mid-size-rehearsals-4-7-people",
+   "desc": "Mid-size, LED-lit white room with sound baffling and a relaxing lounge setup.",
+   "drum_kit": "Yamaha Live Oak Custom",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Live Oak Custom",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Marshalll 4\u00d712 Cabinet",
+    "Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mesa Boogie M6 Carbine",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mixer",
+    "Crown XTI 2002 Power Amp",
+    "(2x) JBL PRX500 15\u201d Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-17/"
+  },
+  {
+   "id": 18,
+   "name": "Studio 18",
+   "tier": "Standard Studio",
+   "price_per_hr": 25.0,
+   "size": "mid-size-rehearsals-4-7-people, solo-musicians",
+   "desc": "A fundamental, sound-curtained rehearsal space with all the basics and a lounge corner.",
+   "drum_kit": "Yamaha Maple Custom Absolute",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Maple Custom Absolute",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Orange 4\u00d712 Cabinet + Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Ampeg SVT 8\u00d710 Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mix",
+    "Crown XTI 2002 Power Amp",
+    "(2x) JBL PRX500 15\u201d Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-18/"
+  },
+  {
+   "id": 20,
+   "name": "Studio 20",
+   "tier": "Standard Studio",
+   "price_per_hr": 25.0,
+   "size": "mid-size-rehearsals-4-7-people, solo-musicians",
+   "desc": "A fundamental, sound-curtained rehearsal space with all the basics and a lounge corner.",
+   "drum_kit": "Yamaha Oak Custom",
+   "cymbals": "Sabian/Zildjian Cymbals",
+   "drums": [
+    "Yamaha Oak Custom",
+    "Sabian/Zildjian Cymbals",
+    "(Crash, Ride, Hi-Hats)",
+    "Stands, Drum Throne, Kick Pedal"
+   ],
+   "guitar_amps": [
+    "Orange TH-100 + Orange 4\u00d712 Cabinet + Fender Hot Rod Deville"
+   ],
+   "bass_amps": [
+    "Mark Bass Little Mark 3",
+    "Mark Bass 410 Cabinet",
+    "Mark Bass 15 inch Cabinet"
+   ],
+   "pa": [
+    "Soundcraft FX16ii Mix",
+    "Crown XTI 2002 Power Amp",
+    "(2x) JBL PRX500 15\u201d Monitors",
+    "(3x) Shure SM 58 Microphones"
+   ],
+   "url": "https://gearyaverehearsal.com/studios/studio-20/"
+  }
+ ]
+}

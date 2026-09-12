@@ -1,0 +1,9 @@
+{
+  "name": "geary-ave",
+  "description": "Geary Ave Rehearsal Studios (Toronto): check studio availability, list free rooms and their gear, and book a session up to the Stripe payment link, all through the site's booking API.",
+  "version": "0.1.0",
+  "author": { "name": "trianglegrrl" },
+  "repository": "https://github.com/trianglegrrl/geary-ave-skill",
+  "license": "MIT",
+  "keywords": ["geary-ave", "rehearsal-studio", "booknetic", "claude-code-skill"]
+}
