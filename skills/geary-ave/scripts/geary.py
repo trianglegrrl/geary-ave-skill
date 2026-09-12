@@ -142,6 +142,20 @@ def cmd_studios(args):
         print("%-10s %-22s %s / %s" % (r["name"], r["tier"], r["drum_kit"] or "?", r["cymbals"] or "?"))
 
 
+def local_window(date, time_text, hours):
+    """ISO start/end with the Toronto UTC offset, so calendar tools cannot misread them."""
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo("America/Toronto")
+    except ImportError:  # pragma: no cover - python < 3.9
+        tz = None
+    start = dt.datetime.combine(date, parse_time(time_text))
+    if tz is not None:
+        start = start.replace(tzinfo=tz)
+    end = start + dt.timedelta(hours=hours)
+    return start.isoformat(), end.isoformat()
+
+
 def cmd_book(args):
     date = parse_date(args.date)
     parse_time(args.time)
@@ -158,7 +172,10 @@ def cmd_book(args):
     result = {
         "type": type_name, "date": args.date, "start": args.time, "hours": args.hours, "studio": args.studio,
         "total": summary["total"], "deposit": summary["deposit"], "confirmed": False,
+        "timezone": "America/Toronto",
+        "calendar_title": "Geary Ave Studio %d (%s, %dh)" % (args.studio, api.SERVICES[type_name]["label"], args.hours),
     }
+    result["start_iso"], result["end_iso"] = local_window(date, args.time, args.hours)
     if args.confirm:
         response = api.confirm_booking(type_name, args.hours, args.date, args.time, str(args.studio), phone, customer_id)
         result.update({
@@ -167,6 +184,8 @@ def cmd_book(args):
             "payment_id": response.get("payment_id"),
             "payment_url": response.get("url"),
             "expires_in_seconds": response.get("payment_link_expiration_time") or response.get("expires_at"),
+            "site_google_calendar_url": response.get("google_calendar_url"),
+            "site_icalendar_url": response.get("icalendar_url"),
             "raw_keys": sorted(k for k in response.keys() if k not in ("html",)),
         })
     if args.json:
@@ -175,6 +194,7 @@ def cmd_book(args):
     label = api.SERVICES[type_name]["label"]
     print("%s  %s %s  %dh  Studio %d  total $%.2f (deposit $%.2f now)" % (
         label, args.date, args.time, args.hours, args.studio, summary["total"], summary["deposit"]))
+    print("CALENDAR: %s  %s to %s (%s)" % (result["calendar_title"], result["start_iso"], result["end_iso"], result["timezone"]))
     if not args.confirm:
         print("DRY RUN: nothing booked. Re-run with --confirm to book.")
         return
